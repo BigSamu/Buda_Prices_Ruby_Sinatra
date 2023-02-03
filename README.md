@@ -82,21 +82,11 @@ The following technologies are used for the implementation of this project:
 
 ### Prerequisites
 
-Node Package Manager (NPM) is required to install and run this application.
+`Ruby`, `Ruby Gems` and `Bundler` are required for the setup of this web application.
 
-- Check if NPM is already installed in your local environment:
-
-  ```sh
-  npm --version
-  ```
-
-  _(Example of expected output: 9.4.0)_
-
-- If not, install last version of this package manager:
-
-  ```sh
-  npm install npm@latest -g
-  ```
+> Installation instructions [here][install-ruby-and-bundler].
+> **NOTE:** at the momment of the implentation of this project `Ruby v3.1.3`, `RubyGems v3.4.6` and `bundler v2.3.26` were used.
+> **NOTE 2:** `RubyGems` comes already included in `Ruby 3`. No need for a separate installation of it.
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -140,7 +130,7 @@ To get a copy of this project and run it in your local environment, follow the s
 
 ### Usage
 
-After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost: 3000](http://localhost:3000/)
+After succesfull installation, you will be able to check the WebApp in any browser by visiting the following URL address: [localhost:4567](http://localhost:4567/)
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -171,10 +161,10 @@ Feel free to contact me if you have any doubt!
 
 Samuel Valdes Gutierrez
 
-[![Gmail][gmail-img]][gmail-url]
-[![Twitter][twitter-img]][twitter-url]
-[![LinkedIn][linkedin-img]][linkedin-url]
-[![HackerRank][hackerrank-img]][hackerrank-url]
+[![Gmail][gmail-badge]][gmail-url]
+[![Twitter][twitter-badge]][twitter-url]
+[![LinkedIn][linkedin-badge]][linkedin-url]
+[![HackerRank][hackerrank-badge]][hackerrank-url]
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
@@ -188,9 +178,9 @@ Samuel Valdes Gutierrez
 
 Whether you use this work to learn something or if you just like my work, please 🙏 consider supporting it. This aid will help me to dedicate more time to create and developed well design open-source projects.
 
-[![Paypal][paypal-img]][paypal-url]
-[![Ko-Fi][ko-fi-img]][ko-fi-url]
-[![BuyMeACoffe][buy-me-a-coffee-img]][buy-me-a-coffee-url]
+[![Paypal][paypal-badge]][paypal-url]
+[![Ko-Fi][ko-fi-badge]][ko-fi-url]
+[![BuyMeACoffe][buy-me-a-coffee-badge]][buy-me-a-coffee-url]
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
