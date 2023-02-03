@@ -85,7 +85,9 @@ The following technologies are used for the implementation of this project:
 `Ruby`, `Ruby Gems` and `Bundler` are required for the setup of this web application.
 
 > Installation instructions [here][install-ruby-and-bundler].
+
 > **NOTE:** at the momment of the implentation of this project `Ruby v3.1.3`, `RubyGems v3.4.6` and `bundler v2.3.26` were used.
+ 
 > **NOTE 2:** `RubyGems` comes already included in `Ruby 3`. No need for a separate installation of it.
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
@@ -101,25 +103,25 @@ To get a copy of this project and run it in your local environment, follow the s
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/BigSamu/Buda_Prices_ReactJS.git
+   git clone https://github.com/BigSamu/Buda_Prices_Ruby_Sinatra.git
    ```
 
 2. Go into the repository
 
    ```sh
-   cd Buda_Prices_ReactJS
+   cd Buda_Prices_Ruby_Sinatra
    ```
 
-3. Install required NPM packages or dependencies
+3. Install required Ruby Gems
 
    ```sh
-   npm install
+   bundle install
    ```
 
 4. Run application
 
    ```sh
-   npm run
+   bundle exec ruby main.rb
    ```
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
