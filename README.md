@@ -86,7 +86,7 @@ The following technologies are used for the implementation of this project:
 
 > Installation instructions [here][install-ruby-and-bundler].
 
-> **NOTE:** at the momment of the implentation of this project `Ruby v3.1.3`, `RubyGems v3.4.6` and `bundler v2.3.26` were used. Since `Ruby v1.9`, `RubyGems` comes already included in its installation package (no need for a separate installation).
+> **NOTE:** at the momment of the implentation of this project `Ruby v2.7.4`, `RubyGems v3.1.6` and `bundler v2.3.26` were used. Since `Ruby v1.9`, `RubyGems` comes already included in its installation package (no need for a separate installation).
 
 <p align="right">(<a href="#back-to-top">back to top</a>)</p>
 
