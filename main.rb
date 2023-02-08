@@ -4,6 +4,7 @@ require "erb"
 require "rest-client"
 require "json"
 require "time"
+require 'rack/cors'
 
 # Config and Settings
 set :public_folder, File.dirname(__FILE__)
@@ -12,6 +13,14 @@ URL_PREFIX = 'https://www.buda.com/api/v2'
 configure do
     register Sinatra::Async
 end
+
+use Rack::Cors do
+    allow do
+        origins '*'
+        resource '*', headers: :any, methods: [:get, :post, :options]
+    end
+end
+  
 
 # Routes
 get '/' do
