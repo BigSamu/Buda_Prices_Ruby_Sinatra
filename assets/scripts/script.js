@@ -3,7 +3,6 @@ $(document).ready(function () {
     url: 'http://localhost:4567/max_transactions',
     type: 'GET',
     success: function (data) {
-     
       let table = `
       <table class="table w-75 table-striped">
         <thead>
@@ -20,7 +19,6 @@ $(document).ready(function () {
       `;
       var options = { style: 'currency', currency: 'USD' };
       let idx = 1;
-      console.log(data[0]['price']);
       for (each of data) {
         table += `<tr>`;
         table += `<th scope="row">${idx}</th>`;

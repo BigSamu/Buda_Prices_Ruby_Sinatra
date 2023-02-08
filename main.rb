@@ -1,22 +1,25 @@
 require "sinatra"
+require "sinatra/async"
 require "erb"
 require "rest-client"
 require "json"
 require "time"
-require "friendly_numbers"
-require 'Async'
 
+# Config and Settings
 set :public_folder, File.dirname(__FILE__)
-
 URL_PREFIX = 'https://www.buda.com/api/v2'
 
+configure do
+    register Sinatra::Async
+end
+
+# Routes
 get '/' do
-    # @prices = read_prices()
     erb :index
 end
 
-get '/max_transactions' do
-    Async do
+aget '/max_transactions' do
+    Fiber.new do
         maxTransactions = [];
         markets = get_markets()
         markets.each do |eachMarket|
@@ -53,7 +56,7 @@ get '/max_transactions' do
         end
         content_type :json
         body maxTransactions.to_json
-    end
+    end.resume
     
 end
 
