@@ -4,7 +4,7 @@
 
 # Buda Prices - Ruby Sinatra
 
-A simple ReactJS web application that fetches data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
+A simple Ruby Sinatra web application that fetches data from [Buda API](https://api.buda.com/en/), an online Chilean cryptocurrency exchange market.
 
 ---
 
